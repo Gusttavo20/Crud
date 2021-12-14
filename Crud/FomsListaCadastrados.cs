@@ -9,7 +9,7 @@ namespace Crud.UI
     {
 
         DadosCliente dadosCliente = new DadosCliente();
-        IntRepositorioListaCliente repositorio = new RepositorioListaCliente();
+        IRepositorioListaCliente repositorio = new RepositorioListaCliente();
 
         public FomsListaCadastrados()
         {
@@ -22,19 +22,13 @@ namespace Crud.UI
             DataGridlistaCliente.DataSource = null;
             DataGridlistaCliente.DataSource = ListaDeClientes.Instance.Listagem;
         }
-
-        private void FomsListaCadastrados_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btNovoUsuario_Click(object sender, EventArgs e)
         {
             //Instaciar outra form
             FomsCadastro telaCadastro = new FomsCadastro();
 
             //passar PARAMETROS vazio
-            telaCadastro.dadosCliente = new DadosCliente
+            telaCadastro.dadosCliente = new DadosCliente()
             {
 
             };
@@ -78,19 +72,14 @@ namespace Crud.UI
             //telaEditar.EditarNovoUsuaro = true;(Codigo anterior)
             if (telaEditar.ShowDialog() == DialogResult.OK)
             {
-
                 int aux = DataGridlistaCliente.CurrentRow.Index;
 
                 repositorio.Editar(dadosCliente, aux);
 
                 DataGridlistaCliente.DataSource = null;
                 DataGridlistaCliente.DataSource = ListaDeClientes.Instance.Listagem;
-
-               
             }
             telaEditar.Close();
-
-
         }
 
         private void BtExcluir_Click_1(object sender, EventArgs e)
@@ -124,8 +113,6 @@ namespace Crud.UI
             DataGridlistaCliente.DataSource = null;
             DataGridlistaCliente.DataSource = ListaDeClientes.Instance.Listagem;
 
-        }
-
-       
+        }   
     }
 }

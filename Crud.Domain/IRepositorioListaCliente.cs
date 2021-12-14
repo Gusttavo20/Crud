@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Crud.Domain
 {
-    public interface IntRepositorioListaCliente
+    public interface IRepositorioListaCliente
     {
         void Salvar(DadosCliente dadosCliente);
         void Deletar( int aux);

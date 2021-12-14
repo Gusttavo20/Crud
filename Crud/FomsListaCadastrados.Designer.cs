@@ -97,7 +97,6 @@ namespace Crud.UI
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FomsListaCadastrados";
             this.Text = "FomsListaCadastrados";
-            this.Load += new System.EventHandler(this.FomsListaCadastrados_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DataGridlistaCliente)).EndInit();
             this.ResumeLayout(false);
 

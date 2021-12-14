@@ -9,3 +9,5 @@ C:\Users\Gustavo\Downloads\Crud\Crud.Infra\bin\Debug\Crud.Domain.pdb
 C:\Users\Gustavo\Downloads\Crud\Crud.Infra\obj\Debug\Crud.Infra.csproj.CopyComplete
 C:\Users\Gustavo\Downloads\Crud\Crud.Infra\obj\Debug\Crud.Infra.dll
 C:\Users\Gustavo\Downloads\Crud\Crud.Infra\obj\Debug\Crud.Infra.pdb
+C:\Users\Gustavo\Downloads\Crud\Crud.Infra\bin\Debug\Ninject.dll
+C:\Users\Gustavo\Downloads\Crud\Crud.Infra\bin\Debug\Ninject.xml

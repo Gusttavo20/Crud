@@ -50,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DadosCliente.cs" />
-    <Compile Include="IntRepositorioListaCliente.cs" />
+    <Compile Include="IRepositorioListaCliente.cs" />
     <Compile Include="ListaDeClientes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
