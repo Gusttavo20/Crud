@@ -1,0 +1,51 @@
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.exe
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.deps.json
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.runtimeconfig.json
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.runtimeconfig.dev.json
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.dll
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.pdb
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.csproj.AssemblyReference.cache
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.FomsCadastro.resources
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.csproj.GenerateResource.cache
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.AssemblyInfoInputs.cache
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.AssemblyInfo.cs
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.dll
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.pdb
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.genruntimeconfig.cache
+C:\Users\Gustavo Marques\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.FomsListaCadastrados.resources
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.csproj.AssemblyReference.cache
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.FomsCadastro.resources
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.FomsListaCadastrados.resources
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.csproj.GenerateResource.cache
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.AssemblyInfoInputs.cache
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.AssemblyInfo.cs
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.dll
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.pdb
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.exe
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.deps.json
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.runtimeconfig.json
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.runtimeconfig.dev.json
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.dll
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.pdb
+C:\Users\Gustavo Marques\Documents\TreineInvent\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.genruntimeconfig.cache
+C:\Users\Gustavo\Downloads\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.exe
+C:\Users\Gustavo\Downloads\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.deps.json
+C:\Users\Gustavo\Downloads\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.runtimeconfig.json
+C:\Users\Gustavo\Downloads\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.runtimeconfig.dev.json
+C:\Users\Gustavo\Downloads\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.dll
+C:\Users\Gustavo\Downloads\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.pdb
+C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.csproj.AssemblyReference.cache
+C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.FomsCadastro.resources
+C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.FomsListaCadastrados.resources
+C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.csproj.GenerateResource.cache
+C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.AssemblyInfoInputs.cache
+C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.AssemblyInfo.cs
+C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.dll
+C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.pdb
+C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.genruntimeconfig.cache

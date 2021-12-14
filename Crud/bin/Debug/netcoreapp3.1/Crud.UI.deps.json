@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Crud.UI/1.0.0": {
+        "dependencies": {
+          "Crud.Domain": "1.0.0",
+          "Crud.Infra": "1.0.0"
+        },
+        "runtime": {
+          "Crud.UI.dll": {}
+        }
+      },
+      "Crud.Domain/1.0.0": {
+        "runtime": {
+          "Crud.Domain.dll": {}
+        }
+      },
+      "Crud.Infra/1.0.0": {
+        "dependencies": {
+          "Crud.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Crud.Infra.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Crud.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Crud.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Crud.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,8 @@
+C:\Users\Gustavo\Downloads\Crud\Crud.Domain\obj\Debug\Crud.Domain.Properties.Resources.resources
+C:\Users\Gustavo\Downloads\Crud\Crud.Domain\obj\Debug\Crud.Domain.csproj.GenerateResource.cache
+C:\Users\Gustavo\Downloads\Crud\Crud.Domain\obj\Debug\Crud.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Downloads\Crud\Crud.Domain\bin\Debug\Crud.Domain.dll
+C:\Users\Gustavo\Downloads\Crud\Crud.Domain\bin\Debug\Crud.Domain.pdb
+C:\Users\Gustavo\Downloads\Crud\Crud.Domain\obj\Debug\Crud.Domain.dll
+C:\Users\Gustavo\Downloads\Crud\Crud.Domain\obj\Debug\Crud.Domain.pdb
+C:\Users\Gustavo\Downloads\Crud\Crud.Domain\obj\Debug\Crud.Domain.csproj.AssemblyReference.cache

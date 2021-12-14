@@ -1,0 +1,11 @@
+C:\Users\Gustavo\Downloads\Crud\Crud.Infra\obj\Debug\Crud.Infra.csproj.AssemblyReference.cache
+C:\Users\Gustavo\Downloads\Crud\Crud.Infra\obj\Debug\Crud.Infra.Properties.Resources.resources
+C:\Users\Gustavo\Downloads\Crud\Crud.Infra\obj\Debug\Crud.Infra.csproj.GenerateResource.cache
+C:\Users\Gustavo\Downloads\Crud\Crud.Infra\obj\Debug\Crud.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Downloads\Crud\Crud.Infra\bin\Debug\Crud.Infra.dll
+C:\Users\Gustavo\Downloads\Crud\Crud.Infra\bin\Debug\Crud.Infra.pdb
+C:\Users\Gustavo\Downloads\Crud\Crud.Infra\bin\Debug\Crud.Domain.dll
+C:\Users\Gustavo\Downloads\Crud\Crud.Infra\bin\Debug\Crud.Domain.pdb
+C:\Users\Gustavo\Downloads\Crud\Crud.Infra\obj\Debug\Crud.Infra.csproj.CopyComplete
+C:\Users\Gustavo\Downloads\Crud\Crud.Infra\obj\Debug\Crud.Infra.dll
+C:\Users\Gustavo\Downloads\Crud\Crud.Infra\obj\Debug\Crud.Infra.pdb
