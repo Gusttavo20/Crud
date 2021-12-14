@@ -20,3 +20,4 @@ C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.UI.pdb
 C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.UI.genruntimeconfig.cache
 C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.UI.FomsCadastro.resources
 C:\Users\Gustavo\Downloads\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.UI.FomsListaCadastrados.resources
+C:\Users\Gustavo\Downloads\Crud\Crud\bin\Debug\netcoreapp3.1\Ninject.dll

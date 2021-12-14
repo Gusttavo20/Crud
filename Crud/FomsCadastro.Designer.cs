@@ -143,7 +143,7 @@ namespace Crud.UI
             this.btLimpar.TabIndex = 9;
             this.btLimpar.Text = "Limpar";
             this.btLimpar.UseVisualStyleBackColor = false;
-            this.btLimpar.Click += new System.EventHandler(this.btLimpar_Click);    
+            this.btLimpar.Click += new System.EventHandler(this.btLimpar_Click);
             // 
             // FomsCadastro
             // 
@@ -163,7 +163,6 @@ namespace Crud.UI
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FomsCadastro";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.FomsCadastro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Ninject;
+using Crud.Infra;
 
 namespace Crud
 {
@@ -18,7 +20,8 @@ namespace Crud
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FomsListaCadastrados());
+            NinjectRepos.ComponenteModulo(ModuloAplicacao.Create());
+            Application.Run(NinjectRepos.Resolver<FomsListaCadastrados>());
         }
     }
 }

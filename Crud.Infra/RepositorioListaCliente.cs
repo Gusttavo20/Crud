@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Crud.Infra
 {
-    public class RepositorioListaCliente : IntRepositorioListaCliente
+    public class RepositorioListaCliente : IRepositorioListaCliente
     {
      
         
@@ -21,6 +21,7 @@ namespace Crud.Infra
         {
             ListaDeClientes.Instance.Listagem.Add(dadosCliente);
         }
+
         public void Editar(DadosCliente dadosCliente, int aux)
         {
             ListaDeClientes.Instance.Listagem[aux].Nome = dadosCliente.Nome;

@@ -55,12 +55,7 @@ namespace Crud.UI
                 DialogResult = DialogResult.OK;
 
             }
-
         }
 
-        private void FomsCadastro_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
