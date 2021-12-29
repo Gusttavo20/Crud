@@ -2,86 +2,69 @@
 using System.Windows.Forms;
 using Crud.Domain;
 using Crud.Infra;
+using Ninject.Parameters;
+using Ninject.Modules;
+using System.Collections.Generic;
 
 namespace Crud.UI
 {
     public partial class FomsListaCadastrados : Form
     {
 
-        DadosCliente dadosCliente = new DadosCliente();
-        IRepositorioListaCliente repositorio = new RepositorioListaCliente();
+        public IRepositorioListaCliente RepositorioListaCliente;
 
-        public FomsListaCadastrados()
+        public DadosCliente dadosCliente = new DadosCliente();
+        public FomsListaCadastrados(IRepositorioListaCliente _repositorioListaCliente, DadosCliente dados)
         {
-            InitializeComponent();
-            repositorio.Salvar(new DadosCliente { });
-            DataGridlistaCliente.DataSource = null;
-            DataGridlistaCliente.DataSource = ListaDeClientes.Instance.Listagem;
 
-            repositorio.Deletar(0);
-            DataGridlistaCliente.DataSource = null;
-            DataGridlistaCliente.DataSource = ListaDeClientes.Instance.Listagem;
+            RepositorioListaCliente = _repositorioListaCliente;
+            dadosCliente = dados;
+
+            InitializeComponent();
+
         }
         private void btNovoUsuario_Click(object sender, EventArgs e)
         {
             //Instaciar outra form
-            FomsCadastro telaCadastro = new FomsCadastro();
+            var param = new ConstructorArgument("dados", new DadosCliente());
+            FomsCadastro telaCadastro = NinjectRepos.Resolve<FomsCadastro>(param);
+           
+            telaCadastro.ShowDialog(this);
 
-            //passar PARAMETROS vazio
-            telaCadastro.dadosCliente = new DadosCliente()
-            {
-
-            };
-
-            //Diferenciar qual o botão foi acionado "Editar ou Novo Usuario"           
-            //telaCadastro.EditarNovoUsuaro = false;
-
-            if (telaCadastro.ShowDialog() == DialogResult.OK)
-            {
-                //Adicionar na lista
-                repositorio.Salvar(telaCadastro.dadosCliente);
-
-                //Atualizar DataGrid
-                telaCadastro.Dispose();
-                DataGridlistaCliente.DataSource = null;
-                DataGridlistaCliente.DataSource = ListaDeClientes.Instance.Listagem;
-            }
-
+            DataGridlistaCliente.DataSource = null;
+            DataGridlistaCliente.DataSource = RepositorioListaCliente.ObterTodos(); 
+            
         }
         private void btEditar_Click(object sender, EventArgs e)
         {
+
             var i = DataGridlistaCliente.CurrentRow;
             if (i == null)
             {
                 MessageBox.Show("Selecione um cliente!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            else
+
+            var dados = DataGridlistaCliente.CurrentRow.DataBoundItem as DadosCliente;
+
+            var param = new ConstructorArgument("dados", new DadosCliente
             {
-                // Valor que o "DadosCliente" ira receber
+               Id = dados.Id,
+               Nome= dados.Nome,
+               Email = dados.Email,
+               Celular = dados.Celular,
+               CPF = dados.CPF,
+           
+        });
 
-                dadosCliente.Nome = DataGridlistaCliente.CurrentRow.Cells[0].Value.ToString();
-                dadosCliente.Email = DataGridlistaCliente.CurrentRow.Cells[1].Value.ToString();
-                dadosCliente.Celular = DataGridlistaCliente.CurrentRow.Cells[2].Value.ToString();
-                dadosCliente.CPF = DataGridlistaCliente.CurrentRow.Cells[3].Value.ToString();
-            }
+            FomsCadastro TelaEditar = NinjectRepos.Resolve<FomsCadastro>(param);
+            TelaEditar.ShowDialog(this);
 
-            FomsCadastro telaEditar = new FomsCadastro(dadosCliente);
+            DataGridlistaCliente.DataSource = null;
+            DataGridlistaCliente.DataSource = RepositorioListaCliente.ObterTodos();
 
-            //Diferenciar qual o botão foi acionado "Editar ou Novo Usuario"
-            //telaEditar.EditarNovoUsuaro = true;(Codigo anterior)
-            if (telaEditar.ShowDialog() == DialogResult.OK)
-            {
-                int aux = DataGridlistaCliente.CurrentRow.Index;
-
-                repositorio.Editar(dadosCliente, aux);
-
-                DataGridlistaCliente.DataSource = null;
-                DataGridlistaCliente.DataSource = ListaDeClientes.Instance.Listagem;
-            }
-            telaEditar.Close();
-        }
-
+        }   
+    
         private void BtExcluir_Click_1(object sender, EventArgs e)
         {
             //Verificar se alguma linha foi selecionada
@@ -94,14 +77,15 @@ namespace Crud.UI
             else
             {
                 //Selecionar a linha em um DataGrid
-                var aux = DataGridlistaCliente.CurrentRow.Index;
+                           
+                var dados = DataGridlistaCliente.CurrentRow.DataBoundItem as DadosCliente;
 
                 DialogResult YesNo = new DialogResult();
                 YesNo = MessageBox.Show("Você tem certeza de que quer excluir esse cliente?", "Atenção!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (YesNo == DialogResult.Yes)
                 {
                     //Remover a linha
-                    repositorio.Deletar(aux);
+                    RepositorioListaCliente.Deletar(dados);
                 }
                 else
                 {
@@ -111,8 +95,14 @@ namespace Crud.UI
             }
             //Atualizar DataGrid
             DataGridlistaCliente.DataSource = null;
-            DataGridlistaCliente.DataSource = ListaDeClientes.Instance.Listagem;
+            DataGridlistaCliente.DataSource = RepositorioListaCliente.ObterTodos();
 
-        }   
+        }
+
+        private void FomsListaCadastrados_Load(object sender, EventArgs e)
+        {
+            DataGridlistaCliente.DataSource = null;
+            DataGridlistaCliente.DataSource = RepositorioListaCliente.ObterTodos();
+        }
     }
 }

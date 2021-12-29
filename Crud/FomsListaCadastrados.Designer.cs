@@ -83,7 +83,6 @@ namespace Crud.UI
             this.DataGridlistaCliente.RowTemplate.Height = 29;
             this.DataGridlistaCliente.Size = new System.Drawing.Size(704, 236);
             this.DataGridlistaCliente.TabIndex = 6;
-            
             // 
             // FomsListaCadastrados
             // 
@@ -97,6 +96,7 @@ namespace Crud.UI
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FomsListaCadastrados";
             this.Text = "FomsListaCadastrados";
+            this.Load += new System.EventHandler(this.FomsListaCadastrados_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DataGridlistaCliente)).EndInit();
             this.ResumeLayout(false);
 

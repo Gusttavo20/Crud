@@ -33,7 +33,6 @@ namespace Crud.UI
         {
             this.textNome = new System.Windows.Forms.TextBox();
             this.textEmail = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.maskcelular = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,6 +40,9 @@ namespace Crud.UI
             this.maskCPF = new System.Windows.Forms.MaskedTextBox();
             this.bt_Salvar = new System.Windows.Forms.Button();
             this.btLimpar = new System.Windows.Forms.Button();
+            this.textId = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textNome
@@ -58,16 +60,6 @@ namespace Crud.UI
             this.textEmail.Name = "textEmail";
             this.textEmail.Size = new System.Drawing.Size(467, 23);
             this.textEmail.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Castellar", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(260, 62);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 14);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Nome do Cliente";
             // 
             // label2
             // 
@@ -145,11 +137,41 @@ namespace Crud.UI
             this.btLimpar.UseVisualStyleBackColor = false;
             this.btLimpar.Click += new System.EventHandler(this.btLimpar_Click);
             // 
+            // textId
+            // 
+            this.textId.Enabled = false;
+            this.textId.Location = new System.Drawing.Point(56, 85);
+            this.textId.Name = "textId";
+            this.textId.Size = new System.Drawing.Size(50, 23);
+            this.textId.TabIndex = 10;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Castellar", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(260, 62);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(147, 14);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Nome do Cliente";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Castellar", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(56, 68);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(36, 14);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Cód";
+            // 
             // FomsCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 338);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.textId);
             this.Controls.Add(this.btLimpar);
             this.Controls.Add(this.bt_Salvar);
             this.Controls.Add(this.maskCPF);
@@ -163,6 +185,7 @@ namespace Crud.UI
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FomsCadastro";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FomsCadastro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,7 +195,6 @@ namespace Crud.UI
 
         private System.Windows.Forms.TextBox textNome;
         private System.Windows.Forms.TextBox textEmail;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.MaskedTextBox maskcelular;
         private System.Windows.Forms.Label label3;
@@ -180,6 +202,9 @@ namespace Crud.UI
         private System.Windows.Forms.MaskedTextBox maskCPF;
         private System.Windows.Forms.Button bt_Salvar;
         private System.Windows.Forms.Button btLimpar;
+        private System.Windows.Forms.TextBox textId;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label5;
     }
 }
 

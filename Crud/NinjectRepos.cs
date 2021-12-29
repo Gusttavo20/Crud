@@ -5,7 +5,9 @@ using System.Collections.Generic;
 using System.Text;
 using Ninject;
 using Ninject.Modules;
-
+using DataModel;
+using LinqToDB;
+using Ninject.Parameters;
 
 namespace Crud.UI
 {
@@ -17,9 +19,9 @@ namespace Crud.UI
         {
             _ninjectKernel = new StandardKernel(module);
         }
-        public static T Resolver<T>()
+        public static T Resolve<T>(params IParameter[] parameters)
         {
-            return _ninjectKernel.Get<T>();
+            return _ninjectKernel.Get<T>(parameters);
         }
     }
 
@@ -27,7 +29,8 @@ namespace Crud.UI
     {
         public override void Load()
         {
-            Bind<IRepositorioListaCliente>().To<RepositorioListaCliente>();
+            //Bind<IRepositorioListaCliente>().To<RepositorioListaCliente>();
+            Bind<IRepositorioListaCliente>().To<RepositorioBancoDados>();
         }
         public static ModuloAplicacao Create()
         {

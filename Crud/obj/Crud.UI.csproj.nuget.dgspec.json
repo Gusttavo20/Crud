@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud\\Crud.UI.csproj": {}
+    "C:\\Users\\Gustavo\\Documents\\Crud\\Crud\\Crud.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
+    "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud.Domain\\Crud.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Domain\\Crud.Domain.csproj",
         "projectName": "Crud.Domain",
-        "projectPath": "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud.Domain\\Crud.Domain.csproj",
+        "projectPath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Domain\\Crud.Domain.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,16 +19,16 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud.Infra\\Crud.Infra.csproj": {
+    "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Infra\\Crud.Infra.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud.Infra\\Crud.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Infra\\Crud.Infra.csproj",
         "projectName": "Crud.Infra",
-        "projectPath": "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud.Infra\\Crud.Infra.csproj",
+        "projectPath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Infra\\Crud.Infra.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
-                "projectPath": "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud.Domain\\Crud.Domain.csproj"
+              "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Domain\\Crud.Domain.csproj"
               }
             }
           }
@@ -38,14 +38,14 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud\\Crud.UI.csproj": {
+    "C:\\Users\\Gustavo\\Documents\\Crud\\Crud\\Crud.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud\\Crud.UI.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud\\Crud.UI.csproj",
         "projectName": "Crud.UI",
-        "projectPath": "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud\\Crud.UI.csproj",
+        "projectPath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud\\Crud.UI.csproj",
         "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud\\obj\\",
+        "outputPath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,11 +62,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
-                "projectPath": "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud.Domain\\Crud.Domain.csproj"
+              "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Domain\\Crud.Domain.csproj"
               },
-              "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud.Infra\\Crud.Infra.csproj": {
-                "projectPath": "C:\\Users\\Gustavo\\Downloads\\Crud\\Crud.Infra\\Crud.Infra.csproj"
+              "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Infra\\Crud.Infra.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Infra\\Crud.Infra.csproj"
               }
             }
           }
@@ -84,6 +84,14 @@
             "Ninject": {
               "target": "Package",
               "version": "[3.3.4, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "linq2db": {
+              "target": "Package",
+              "version": "[3.6.0, )"
             }
           },
           "imports": [

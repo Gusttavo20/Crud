@@ -9,9 +9,11 @@ namespace Crud.Domain
     public interface IRepositorioListaCliente
     {
         void Salvar(DadosCliente dadosCliente);
-        void Deletar( int aux);
-        void Editar(DadosCliente dadosCliente, int aux);
-
+        void Deletar(DadosCliente dadosCliente);
+        void Editar(DadosCliente dadosCliente);
+        DadosCliente ObterSomenteUm(int pegarId);
+        List<DadosCliente> ObterTodos();   
+        
     }
 }
 
