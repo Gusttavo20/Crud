@@ -52,6 +52,8 @@ namespace Crud.UI
             this.textNome.Name = "textNome";
             this.textNome.Size = new System.Drawing.Size(467, 23);
             this.textNome.TabIndex = 0;
+            this.textNome.Text = "\r\n";
+            this.textNome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textNome_KeyPress);
             // 
             // textEmail
             // 
@@ -76,7 +78,7 @@ namespace Crud.UI
             this.maskcelular.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.maskcelular.Location = new System.Drawing.Point(112, 214);
             this.maskcelular.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.maskcelular.Mask = "(99) 0000-0000";
+            this.maskcelular.Mask = "(99) 9 0000-0000";
             this.maskcelular.Name = "maskcelular";
             this.maskcelular.Size = new System.Drawing.Size(109, 22);
             this.maskcelular.TabIndex = 4;
@@ -110,6 +112,7 @@ namespace Crud.UI
             this.maskCPF.Name = "maskCPF";
             this.maskCPF.Size = new System.Drawing.Size(109, 22);
             this.maskCPF.TabIndex = 7;
+            
             // 
             // bt_Salvar
             // 

@@ -47,15 +47,7 @@ namespace Crud.UI
 
             var dados = DataGridlistaCliente.CurrentRow.DataBoundItem as DadosCliente;
 
-            var param = new ConstructorArgument("dados", new DadosCliente
-            {
-               Id = dados.Id,
-               Nome= dados.Nome,
-               Email = dados.Email,
-               Celular = dados.Celular,
-               CPF = dados.CPF,
-           
-        });
+            var param = new ConstructorArgument("dados", dados);
 
             FomsCadastro TelaEditar = NinjectRepos.Resolve<FomsCadastro>(param);
             TelaEditar.ShowDialog(this);
