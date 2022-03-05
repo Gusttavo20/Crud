@@ -17,3 +17,14 @@ C:\Users\Gustavo\Documents\Crud\Crud.Domain\obj\Debug\Crud.Domain.csproj.CopyCom
 C:\Users\Gustavo\Documents\Crud\Crud.Domain\obj\Debug\Crud.Domain.dll
 C:\Users\Gustavo\Documents\Crud\Crud.Domain\obj\Debug\Crud.Domain.pdb
 C:\Users\Gustavo\Documents\Crud\Crud.Domain\obj\Debug\Crud.Domain.csproj.AssemblyReference.cache
+C:\Users\Gustavo Marques\Documents\crud\Crud\Crud.Domain\bin\Debug\Crud.Domain.dll
+C:\Users\Gustavo Marques\Documents\crud\Crud\Crud.Domain\bin\Debug\Crud.Domain.pdb
+C:\Users\Gustavo Marques\Documents\crud\Crud\Crud.Domain\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Gustavo Marques\Documents\crud\Crud\Crud.Domain\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Gustavo Marques\Documents\crud\Crud\Crud.Domain\obj\Debug\Crud.Domain.csproj.AssemblyReference.cache
+C:\Users\Gustavo Marques\Documents\crud\Crud\Crud.Domain\obj\Debug\Crud.Domain.Properties.Resources.resources
+C:\Users\Gustavo Marques\Documents\crud\Crud\Crud.Domain\obj\Debug\Crud.Domain.csproj.GenerateResource.cache
+C:\Users\Gustavo Marques\Documents\crud\Crud\Crud.Domain\obj\Debug\Crud.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo Marques\Documents\crud\Crud\Crud.Domain\obj\Debug\Crud.Domain.csproj.CopyComplete
+C:\Users\Gustavo Marques\Documents\crud\Crud\Crud.Domain\obj\Debug\Crud.Domain.dll
+C:\Users\Gustavo Marques\Documents\crud\Crud\Crud.Domain\obj\Debug\Crud.Domain.pdb

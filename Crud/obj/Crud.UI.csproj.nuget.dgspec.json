@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gustavo\\Documents\\Crud\\Crud\\Crud.UI.csproj": {}
+    "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud\\Crud.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
+    "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Domain\\Crud.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud.Domain\\Crud.Domain.csproj",
         "projectName": "Crud.Domain",
-        "projectPath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Domain\\Crud.Domain.csproj",
+        "projectPath": "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud.Domain\\Crud.Domain.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,16 +19,16 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Infra\\Crud.Infra.csproj": {
+    "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud.Infra\\Crud.Infra.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Infra\\Crud.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud.Infra\\Crud.Infra.csproj",
         "projectName": "Crud.Infra",
-        "projectPath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Infra\\Crud.Infra.csproj",
+        "projectPath": "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud.Infra\\Crud.Infra.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
-                "projectPath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Domain\\Crud.Domain.csproj"
+              "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud.Domain\\Crud.Domain.csproj"
               }
             }
           }
@@ -38,17 +38,21 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Gustavo\\Documents\\Crud\\Crud\\Crud.UI.csproj": {
+    "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud\\Crud.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud\\Crud.UI.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud\\Crud.UI.csproj",
         "projectName": "Crud.UI",
-        "projectPath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud\\Crud.UI.csproj",
-        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud\\obj\\",
+        "projectPath": "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud\\Crud.UI.csproj",
+        "packagesPath": "C:\\Users\\Gustavo Marques\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gustavo Marques\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,11 +66,11 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
-                "projectPath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Domain\\Crud.Domain.csproj"
+              "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud.Domain\\Crud.Domain.csproj"
               },
-              "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Infra\\Crud.Infra.csproj": {
-                "projectPath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud.Infra\\Crud.Infra.csproj"
+              "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud.Infra\\Crud.Infra.csproj": {
+                "projectPath": "C:\\Users\\Gustavo Marques\\Documents\\crud\\Crud\\Crud.Infra\\Crud.Infra.csproj"
               }
             }
           }
@@ -104,6 +108,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.14, 5.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -112,7 +134,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
